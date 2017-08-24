@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(250,245,240);
+}
+div#sidebar {
+	width: 20%;
+	height: 100%;
+	background: #000000;
+	margin: 0 auto;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	text-align: center;
+}
+#portrait {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+#prints {
+	height: 366px;
+	width: 454px;
+	margin: 90px 0px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 800px;
+}
+
+#nj11 {
+	margin: 10px 15px 80px 350px;
+	width: 404px;
+	height: 316px;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+}
+
+#cheeta {
+	width: 314px;
+	height: 300px;
+	margin: 15px 15px 30px 370px;
+	position: absolute;
+	bottom: 30px
+}
+
+#promo {
+	width: 214px;
+	height: 135px;
+	margin: 40px 0px 0px 35px;
+	position: absolute;
+	left: 1250px;
+}
+#photos {
+	width: 217px;
+	height: 155px;
+	margin: 60px 0px 0px 35px;
+	position: absolute;
+	right: 20px;
+	top: 280px;
+}
+
+h1,h2, p {
+	color: rgba(255,255,255,.9);
+}
+
+h1 {
+	font-family: 'Nunito';
+	font-size: 40px;
+	margin: 30px 0px 0px 0px;
+	line-height: 1em
+}
+
+h2 {
+	font-family: "Roboto Slab"
+	font-size: 22px;
+	font-weight: 800;
+}
+
+p {
+	font-family: arial;
+	margin: 1.5em;
+}
+
+img {
+	border: 2px solid;
+	border-color: rgba(0,0,0,1);
+	background-color: white;
+}
