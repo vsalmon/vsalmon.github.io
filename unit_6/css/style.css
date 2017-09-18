@@ -10,17 +10,6 @@ body {
 	background: rgb(250,245,240);
 }
 
-div#sidebar {
-	width: 20%;
-	height: 100%;
-	background: #000000;
-	margin: 0 auto;
-	padding: 10px;
-	position: fixed;
-	top: 0;
-	text-align: center;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -30,6 +19,15 @@ div#sidebar {
 	height: 0;
 }
 
+div#sidebar {
+	width: 20%;
+	height: 100%;
+	background: #000000;
+	margin: 0 auto;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+}
 #portrait {
 	margin: 0;
 	padding: 0;
@@ -82,6 +80,28 @@ div#sidebar {
 	min-height: 100%;
 }
 
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 15px;
+	float: left;
+	width: 60%
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 15px;
+	float: right;
+}
+
+
 h1,h2, p {
 	color: rgba(255,255,255,.9);
 }
@@ -102,7 +122,7 @@ p {
 	font-family: 'Nunito';
 	margin: 1em;
 	line-height: 1.2em;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 img {
@@ -112,6 +132,7 @@ img {
 }
 
 footer {
+	clear: both;
 	text-align: center;
 	font-family: sans-serif;
 	font-size: 15px;
@@ -122,3 +143,4 @@ footer {
 	padding: 0;
 	margin: 0;
 }
+

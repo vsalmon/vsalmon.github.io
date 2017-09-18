@@ -6,6 +6,15 @@
 	box-sizing: border-box;
 }
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
 body {
 	background: rgb(250,245,240);
 }
@@ -134,5 +143,6 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 	margin: 0;
+	clear: both;
 }
 
