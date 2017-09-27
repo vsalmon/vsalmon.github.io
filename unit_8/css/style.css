@@ -7,7 +7,7 @@
 }
 
 html, body {
-	height: 100vh;
+	height: 100%;
 	margin: 0;
 }
 
@@ -18,12 +18,11 @@ body {
 
 div#sidebar {
 	width: 20%;
-	height: 100vh;
+	height: 100%;
 	background: #000000;
 	margin: 0 auto;
 	padding: .5em;
 	float: left;
-	top: 0;
 	text-align: center;
 }
 
@@ -123,29 +122,72 @@ img {
 }
  
 @media only screen and (max-width: 1475px) {
+	body {
+		font-size: 18px;
+	}
 	#prints {
-		width: 30%;
+		width: 25%;
 		float: none;
-		margin: 2em;
+		margin: 1em;
 	}
 	#nj11 {
-		width: 30%;
+		width: 25%;
 		float: none;
-		margin: 2em;
+		margin: 1em;
 	}
 	#cheeta {
-		width: 30%;
+		width: 25%;
 		float: none;
-		margin: 2em;
+		margin: 1em;
 	}
 	#promo {
-		width: 30%;
+		width: 25%;
 		float: none;
-		margin: 2em;
+		margin: 1em;
 	}
 	#photos {
-		width: 30%;
+		width: 25%;
 		float: none;
-		margin: 2em;
+		margin: 1em;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	div#sidebar {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	#portrait {
+		width: 20%;
+	}
+	h3 {
+		float: right;
+		margin: 0 5em;
+	}
+	#prints {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#nj11 {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#cheeta {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#promo {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#photos {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
 	}
 }
