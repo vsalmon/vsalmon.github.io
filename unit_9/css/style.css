@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto+Slab');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: rgb(250,245,240);
+	font-size: 20px;
+}
+
+div#sidebar {
+	width: 20%;
+	height: 100%;
+	background: #000000;
+	margin: 0 auto;
+	padding: .5em;
+	float: left;
+	text-align: center;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#portrait {
+	width: 75%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+#prints {
+	height: 20%;
+	float: right;
+	margin: 2.8em .75em .2em .75em;
+}
+
+#nj11 {
+	width: 31%;
+	float: right;
+	top: 0px;
+	margin: .5em 1.5em .5em 0em;
+}
+
+#cheeta {
+	width: 25%;
+	float: right;
+	margin: 1em 4em 0em 0em;
+}
+
+#promo {
+	width: 15%;
+	float: right;
+	margin: .5em;
+}
+#photos {
+	width: 20%;
+	float: right;
+	margin: 2.5em 7.5em 0em 3em;
+}
+
+#article {
+	min-height: 100%;
+}
+
+
+h1,h2, p {
+	color: rgba(255,255,255,.9);
+}
+
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2em;
+	margin: .8em 0em 1em 0em;
+	line-height: 1em
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.1em;
+}
+
+p {
+	font-family: 'Nunito';
+	margin: 1em;
+	line-height: 1.2em;
+	font-size: 1em;
+}
+
+h3 {
+	font-size: .9em;
+}
+img {
+	border: .1em solid;
+	border-color: rgba(0,0,0,1);
+	background-color: white;
+}
+
+#footer {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: .70em;
+	background-color: rgba(50,50,50,.2);
+	bottom: 1%;
+	width: 100%;
+	height: 1.6em;
+	padding: 1.2em;
+	margin: 0;
+}
+ 
+@media only screen and (max-width: 1475px) {
+	body {
+		font-size: 18px;
+	}
+	#prints {
+		width: 25%;
+		float: none;
+		margin: 1em;
+	}
+	#nj11 {
+		width: 25%;
+		float: none;
+		margin: 1em;
+	}
+	#cheeta {
+		width: 25%;
+		float: none;
+		margin: 1em;
+	}
+	#promo {
+		width: 25%;
+		float: none;
+		margin: 1em;
+	}
+	#photos {
+		width: 25%;
+		float: none;
+		margin: 1em;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	div#sidebar {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	#portrait {
+		width: 20%;
+	}
+	h3 {
+		float: left;
+		margin: 0 3em;
+	}
+	#prints {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#nj11 {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#cheeta {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#promo {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+	#photos {
+		width: 50%;
+		float: none;
+		margin: 1em 10em;
+	}
+}
